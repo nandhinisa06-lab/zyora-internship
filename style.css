@@ -94,3 +94,40 @@ button{
 button:hover{
     background:#084298;
 }
+/* Responsive Design */
+
+nav ul {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills li {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    section {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .skills {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .skills li {
+        width: 200px;
+    }
+}
