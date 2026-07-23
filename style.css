@@ -131,3 +131,35 @@ nav ul {
         width: 200px;
     }
 }
+.dark-mode{
+    background-color:#222;
+    color:white;
+}
+
+.dark-mode nav{
+    background-color:#111;
+}
+
+.dark-mode table{
+    color:white;
+}
+
+.dark-mode input,
+.dark-mode textarea{
+    background:#333;
+    color:white;
+    border:1px solid #666;
+}
+
+#darkModeBtn{
+    margin:15px;
+    padding:10px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#darkModeBtn:hover{
+    background:#0d6efd;
+    color:white;
+}
