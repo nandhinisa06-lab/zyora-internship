@@ -26,3 +26,26 @@ form.addEventListener("submit", function (e) {
 
     alert("Form submitted successfully!");
 });
+const quote = document.getElementById("quote");
+const button = document.getElementById("newQuoteBtn");
+
+async function getQuote() {
+    quote.textContent = "Loading...";
+
+    try {
+        const response = await fetch("https://api.github.com/users/octocat");
+        const data = await response.json();
+
+        quote.innerHTML = `
+            <h3>${data.name}</h3>
+            <p>Username: ${data.login}</p>
+            <p>Followers: ${data.followers}</p>
+        `;
+    } catch (error) {
+        quote.textContent = "Couldn't fetch data";
+    }
+}
+
+getQuote();
+
+button.addEventListener("click", getQuote);
