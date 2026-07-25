@@ -163,3 +163,16 @@ nav ul {
     background:#0d6efd;
     color:white;
 }
+#quoteSection {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#newQuoteBtn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
