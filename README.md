@@ -1,13 +1,25 @@
-# Zyora Internship
+# WeatherWise – Weather Dashboard
 
-## Developer Launch Page
+## Project
+A weather dashboard web app using the Open-Meteo API.
 
-This repository contains my internship tasks and projects.
+## Developer
+S.A. Nandhini
 
-## About Me
+## Pages
+- Home
+- City Details
+- Saved Cities
 
-I'm S. A. Nandhini, a Computer Science and Engineering student.
+## Features
+- City Search
+- Current Weather
+- 7-Day Forecast
+- Favourite Cities (localStorage)
+- Responsive Design
 
-## Goal
-
-To improve my practical development skills, learn Git & GitHub, and build real-world projects during this internship.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Open-Meteo API
