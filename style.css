@@ -222,3 +222,15 @@ textarea {
     padding: 10px;
     margin: 10px 0;
       }
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
