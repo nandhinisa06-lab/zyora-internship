@@ -234,3 +234,18 @@ button {
 button:hover {
     opacity: 0.8;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .card,
+    form {
+        width: 100%;
+    }
+}
