@@ -208,3 +208,17 @@ nav ul {
     margin-top: 10px;
     cursor: pointer;
 }
+.card,
+form {
+    background: var(--white);
+    padding: 20px;
+    border-radius: var(--radius);
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+      }
