@@ -6,6 +6,19 @@
   --radius: 10px;
   --space: 20px;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: var(--space);
+}
 body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
