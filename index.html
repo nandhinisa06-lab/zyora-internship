@@ -1,100 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Launch Page</title>
+    <title>WeatherWise</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
+    <h1>🌤 WeatherWise Dashboard</h1>
 
-<h1>Hello, I'm S. A. Nandhini</h1>
-
-<nav>
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-<button id="darkModeBtn">🌙 Dark Mode</button>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="city.html">City Details</a> |
+        <a href="saved.html">Saved Cities</a>
+    </nav>
 </header>
 
 <main>
-<section id="about">
-<h2>About Me</h2>
-<p>
-I am a Computer Science and Engineering student passionate about Cloud Computing,
-Web Development, and Full Stack Development.
-</p>
+
+<section class="card">
+    <h2>Search Weather</h2>
+
+    <label for="cityInput">City Name</label><br>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+
+    <br><br>
+
+    <button id="searchBtn">Search</button>
 </section>
-    <section id="skills">
-<h2>Skills</h2>
-<ul class="skills">
-    <li>HTML & CSS Projects</li>
-    <li>JavaScript Projects</li>
-    <li>Full Stack Web Applications</li>
-    <li>Git & GitHub Skills</li>
-</ul>
-    </section>
-    <section id="education">
 
-<h2>Education</h2>
+<section class="card">
+    <h2>Current Weather</h2>
 
-<table border="1">
-<tr>
-<th>Course</th>
-<th>College</th>
-<th>Year</th>
-</tr>
+    <p><strong>City:</strong> <span id="cityName">--</span></p>
+    <p><strong>Temperature:</strong> <span id="temperature">--°C</span></p>
+    <p><strong>Wind Speed:</strong> <span id="wind">-- km/h</span></p>
+</section>
 
-<tr>
-<td>B.E. Computer Science and Engineering</td>
-<td>Arunachala College of Engineering for Women</td>
-<td>2024–2028</td>
-</tr>
-
-</table>
-
-    </section>
-    <section id="contact">
-
-<h2>Contact Me</h2>
-
-<form id="contactForm">
-
-<label for="name">Name:</label><br>
-<input type="text" id="name" name="name"><br><br>
-
-<label for="email">Email:</label><br>
-<input type="email" id="email" name="email"><br><br>
-
-<label for="message">Message:</label><br>
-<textarea id="message" name="message"></textarea><br><br>
-
-<input type="submit" value="Send">
-
-</form>
-
-    </section>
-<h2>Why I Joined</h2>
-<p>
-I joined this internship to improve my practical development skills and build a strong portfolio.
-</p>
-    <p>I enjoy learning new technologies and building real-world projects.</p>
-    <p>My goal is to become a skilled Full Stack Developer.</p>
-    </main>
+</main>
 
 <footer>
-    <p>&copy; 2026 S. A. Nandhini. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js" defer></script>
-<section id="quoteSection">
-    <h2>GitHub Profile</h2>
-    <p id="quote">Loading...</p>
-    <button id="newQuoteBtn">Refresh Data</button>
-</section>
+    <p>&copy; 2026 WeatherWise</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
+
