@@ -23,6 +23,13 @@ nav {
     background: var(--primary);
     padding: 10px;
     text-align: center;
+  padding: 8px 12px;
+border-radius: 5px;
+transition: 0.3s;
+}
+nav a:hover{
+    background: white;
+    color: var(--primary);
 }
 
 nav a {
