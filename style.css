@@ -215,8 +215,9 @@ button {
 }
 
 button:hover {
-    opacity: 0.8;
-}
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
 @media (max-width: 768px) {
     body {
         padding: 10px;
