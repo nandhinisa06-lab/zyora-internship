@@ -24,17 +24,7 @@ if (searchBtn) {
         document.getElementById("wind").textContent = "12 km/h";
     });
 }
-const searchBtn = document.getElementById("searchBtn");
 
-searchBtn.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    const city = document.getElementById("cityInput").value.trim();
-
-    if (city === "") {
-        alert("Please enter a city name!");
-        return;
-    }
 
     document.getElementById("cityName").textContent = city;
     document.getElementById("temperature").textContent = "30°C";
