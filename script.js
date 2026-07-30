@@ -1,28 +1,9 @@
-// Dark Mode Toggle
-const darkModeBtn = document.getElementById("darkModeBtn");
+document.getElementById("searchBtn").addEventListener("click", function () {
+    alert("Button Clicked!");
 
-if (darkModeBtn) {
-    darkModeBtn.addEventListener("click", function () {
-        document.body.classList.toggle("dark-mode");
-    });
-}
+    const city = document.getElementById("cityInput").value;
 
-// Weather Search
-const searchBtn = document.getElementById("searchBtn");
-
-if (searchBtn) {
-    searchBtn.addEventListener("click", function () {
-        const city = document.getElementById("cityInput").value.trim();
-
-        if (city === "") {
-            alert("Please enter a city name.");
-            return;
-        }
-
-        document.getElementById("cityName").textContent = city;
-        document.getElementById("temperature").textContent = "28°C";
-        document.getElementById("wind").textContent = "12 km/h";
-
-        alert("Weather loaded successfully!");
-    });
-}
+    document.getElementById("cityName").innerHTML = city;
+    document.getElementById("temperature").innerHTML = "28°C";
+    document.getElementById("wind").innerHTML = "12 km/h";
+});
