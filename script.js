@@ -7,7 +7,10 @@ document.getElementById("searchBtn").addEventListener("click", function () {
         return;
     }
 
+    // Display City
     document.getElementById("cityName").textContent = city;
+
+    // Demo Weather Data
     document.getElementById("temperature").textContent = "28°C";
     document.getElementById("wind").textContent = "12 km/h";
 
