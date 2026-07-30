@@ -1,4 +1,3 @@
-alert("JavaScript Loaded!");
 // Dark Mode Toggle
 const darkModeBtn = document.getElementById("darkModeBtn");
 
@@ -8,7 +7,7 @@ if (darkModeBtn) {
     });
 }
 
-// Weather Search (Temporary Demo)
+// Weather Search
 const searchBtn = document.getElementById("searchBtn");
 
 if (searchBtn) {
@@ -23,13 +22,7 @@ if (searchBtn) {
         document.getElementById("cityName").textContent = city;
         document.getElementById("temperature").textContent = "28°C";
         document.getElementById("wind").textContent = "12 km/h";
+
+        alert("Weather loaded successfully!");
     });
 }
-
-
-    document.getElementById("cityName").textContent = city;
-    document.getElementById("temperature").textContent = "30°C";
-    document.getElementById("wind").textContent = "15 km/h";
-
-    alert("Weather loaded successfully!");
-});
