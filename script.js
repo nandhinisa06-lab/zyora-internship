@@ -1,3 +1,4 @@
+alert("JavaScript Loaded!");
 // Dark Mode Toggle
 const darkModeBtn = document.getElementById("darkModeBtn");
 
