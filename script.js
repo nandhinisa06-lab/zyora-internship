@@ -25,3 +25,4 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=13.08&longitude=80.27&cur
     document.getElementById("temperature").textContent = "Error";
     document.getElementById("wind").textContent = "Error";
 });
+});
