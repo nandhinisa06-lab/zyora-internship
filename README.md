@@ -1,25 +1,19 @@
-# WeatherWise – Weather Dashboard
+# WeatherWise Dashboard
 
-## Project
-A weather dashboard web app using the Open-Meteo API.
-
-## Developer
-S.A. Nandhini
-
-## Pages
-- Home
-- City Details
-- Saved Cities
+## About
+WeatherWise is a simple weather dashboard that shows live weather using the Open-Meteo API.
 
 ## Features
-- City Search
-- Current Weather
-- 7-Day Forecast
-- Favourite Cities (localStorage)
-- Responsive Design
+- Search weather
+- Live temperature and wind speed
+- Loading and error handling
+- Responsive design
 
-## Technologies Used
+## Technologies
 - HTML
 - CSS
 - JavaScript
 - Open-Meteo API
+
+## Live Website
+https://nandhinisa06-lab.github.io/zyora-internship/
